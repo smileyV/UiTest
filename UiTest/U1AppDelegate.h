@@ -16,4 +16,6 @@
 
 @property (strong, nonatomic) U1ViewController *viewController;
 
+//@property (strong, nonatomic)YellowViewController * yellowViewController;
+
 @end

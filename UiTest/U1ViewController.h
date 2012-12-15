@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+@class YellowViewController;
 
 @interface U1ViewController : UIViewController
 
+@property (strong, nonatomic) YellowViewController *yellowViewController;
+
+- (IBAction)SwitchView:(id)sender;
 @end

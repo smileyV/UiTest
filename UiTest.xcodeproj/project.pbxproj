@@ -15,6 +15,10 @@
 		844003C216784EE6006DF809 /* U1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 844003C116784EE6006DF809 /* U1AppDelegate.m */; };
 		844003C516784EE6006DF809 /* U1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844003C416784EE6006DF809 /* U1ViewController.m */; };
 		844003C816784EE6006DF809 /* U1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844003C616784EE6006DF809 /* U1ViewController.xib */; };
+		844003E816786B69006DF809 /* YellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844003E716786B69006DF809 /* YellowViewController.m */; };
+		844003EA16786B7D006DF809 /* YellowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844003E916786B7D006DF809 /* YellowView.xib */; };
+		84786CB41679CC38006F87D5 /* Letter.png in Resources */ = {isa = PBXBuildFile; fileRef = 84786CB31679CC38006F87D5 /* Letter.png */; };
+		84786CB71679D05B006F87D5 /* newTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84786CB61679D05B006F87D5 /* newTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +26,21 @@
 		844003B116784EE6006DF809 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		844003B316784EE6006DF809 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		844003B516784EE6006DF809 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		844003B916784EE6006DF809 /* UiTest-Info.plist */ = {isa = PBXFileReference; path = "UiTest-Info.plist"; sourceTree = "<group>"; };
+		844003B916784EE6006DF809 /* UiTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UiTest-Info.plist"; sourceTree = "<group>"; };
 		844003BB16784EE6006DF809 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		844003BD16784EE6006DF809 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		844003BF16784EE6006DF809 /* UiTest-Prefix.pch */ = {isa = PBXFileReference; path = "UiTest-Prefix.pch"; sourceTree = "<group>"; };
-		844003C016784EE6006DF809 /* U1AppDelegate.h */ = {isa = PBXFileReference; path = U1AppDelegate.h; sourceTree = "<group>"; };
+		844003BF16784EE6006DF809 /* UiTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UiTest-Prefix.pch"; sourceTree = "<group>"; };
+		844003C016784EE6006DF809 /* U1AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = U1AppDelegate.h; sourceTree = "<group>"; };
 		844003C116784EE6006DF809 /* U1AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = U1AppDelegate.m; sourceTree = "<group>"; };
-		844003C316784EE6006DF809 /* U1ViewController.h */ = {isa = PBXFileReference; path = U1ViewController.h; sourceTree = "<group>"; };
+		844003C316784EE6006DF809 /* U1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = U1ViewController.h; sourceTree = "<group>"; };
 		844003C416784EE6006DF809 /* U1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = U1ViewController.m; sourceTree = "<group>"; };
 		844003C716784EE6006DF809 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/U1ViewController.xib; sourceTree = "<group>"; };
+		844003E616786B69006DF809 /* YellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowViewController.h; sourceTree = "<group>"; };
+		844003E716786B69006DF809 /* YellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowViewController.m; sourceTree = "<group>"; };
+		844003E916786B7D006DF809 /* YellowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YellowView.xib; sourceTree = "<group>"; };
+		84786CB31679CC38006F87D5 /* Letter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Letter.png; sourceTree = "<group>"; };
+		84786CB51679D05B006F87D5 /* newTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newTableViewCell.h; sourceTree = "<group>"; };
+		84786CB61679D05B006F87D5 /* newTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,11 @@
 				844003C416784EE6006DF809 /* U1ViewController.m */,
 				844003C616784EE6006DF809 /* U1ViewController.xib */,
 				844003B816784EE6006DF809 /* Supporting Files */,
+				844003E616786B69006DF809 /* YellowViewController.h */,
+				844003E916786B7D006DF809 /* YellowView.xib */,
+				844003E716786B69006DF809 /* YellowViewController.m */,
+				84786CB51679D05B006F87D5 /* newTableViewCell.h */,
+				84786CB61679D05B006F87D5 /* newTableViewCell.m */,
 			);
 			path = UiTest;
 			sourceTree = "<group>";
@@ -90,6 +105,7 @@
 		844003B816784EE6006DF809 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84786CB31679CC38006F87D5 /* Letter.png */,
 				844003B916784EE6006DF809 /* UiTest-Info.plist */,
 				844003BA16784EE6006DF809 /* InfoPlist.strings */,
 				844003BD16784EE6006DF809 /* main.m */,
@@ -150,6 +166,8 @@
 			files = (
 				844003BC16784EE6006DF809 /* InfoPlist.strings in Resources */,
 				844003C816784EE6006DF809 /* U1ViewController.xib in Resources */,
+				844003EA16786B7D006DF809 /* YellowView.xib in Resources */,
+				84786CB41679CC38006F87D5 /* Letter.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +181,8 @@
 				844003BE16784EE6006DF809 /* main.m in Sources */,
 				844003C216784EE6006DF809 /* U1AppDelegate.m in Sources */,
 				844003C516784EE6006DF809 /* U1ViewController.m in Sources */,
+				844003E816786B69006DF809 /* YellowViewController.m in Sources */,
+				84786CB71679D05B006F87D5 /* newTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +296,7 @@
 				844003CD16784EE6006DF809 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
