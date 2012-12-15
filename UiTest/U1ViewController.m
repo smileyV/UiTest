@@ -7,9 +7,8 @@
 //
 
 #import "U1ViewController.h"
-#import "YellowViewController.h"
+
 @implementation U1ViewController
-@synthesize yellowViewController;
 
 - (void)didReceiveMemoryWarning
 {
@@ -21,9 +20,6 @@
 
 - (void)viewDidLoad
 {
-    //self.yellowViewController = [[YellowViewController alloc]initWithNibName:@"YellowView" bundle:nil];
-    //[self.view insertSubview:self.yellowViewController.view atIndex:0];
-    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -31,7 +27,6 @@
 - (void)viewDidUnload
 {
     [super viewDidUnload];
-    self.yellowViewController = nil;
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
@@ -60,25 +55,6 @@
 {
     // Return YES for supported orientations
     return YES;
-}
-
-- (IBAction)SwitchView:(id)sender
-{
-    [UIView beginAnimations:@"View Filp" context:nil];
-    [UIView setAnimationDuration:1.25];
-    [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
-    
-    if (self.yellowViewController == nil)
-    {
-        self.yellowViewController = [[YellowViewController alloc]initWithNibName:@"YellowView" bundle:nil];
-        
-    }
-    
-    [UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:self.view cache:YES];
-    
-    [self.view insertSubview:self.yellowViewController.view atIndex:1];
-    [UIView commitAnimations];
-    
 }
 
 @end
